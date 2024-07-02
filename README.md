@@ -1,87 +1,76 @@
+# 🥦 Vegan-ro
 
+![커버](https://drive.google.com/uc?export=view&id=1i6A_JkiK7PGkB1DvL6v-5c6TW9oAph0h)
 
+![서비스소개](https://drive.google.com/uc?export=view&id=1cCEbZr9CY-2V5EWa3L6U_BPU997Ae7Qr)
 
-(서비스 명)
+<br/>
 
-서비스 명을 위 괄호 부분에 작성하세요.
-서비스의 한 줄 소개를 작성하세요.
+## 📍 서비스 주요 기능
 
+[기능 상세 설명](https://alert-curler-7a3.notion.site/3fb43bbf88ed4ce6a72c15a320774910?pvs=4)
 
-서비스 구성 안내
+### 로그인
 
-1. 서비스 소개
+![로그인](https://drive.google.com/uc?export=view&id=1f7zErhOLn7XLTk4etFmfTLkn--QnrR8c)
 
-기술 스택 (Bulma css, node, mongodb 등)
-웹서비스에 대한 자세한 개요 등
+### 홈 & 식당
 
+![상세](https://drive.google.com/uc?export=view&id=1hhvgF8v65xpYtdF2Liy9V74KCVxlQo7H)
 
-2. 서비스 주요 기능 설명
-웹서비스의 유용성, 편의성 및 시각화의 실용성에 대한 설명
+### 마이페이지
 
-주요 기능 (주된 활용성) 및 서브 기능 소개
-프로젝트만의 차별점, 기대 효과
+![마이페이지](https://drive.google.com/uc?export=view&id=1XcO4fe82mabVsfAam7q12Q4d2zLxdFiP)
 
+## 📍 실행 방법
 
-3. 서비스 구성도
+npm install 의존성 설치 -> .env 생성 (\*별도 전달)
 
-서비스 구조도 그림 (사용한 기술 스택)
-와이어프레임 링크 (예상 웹 화면 UI) e.g) figma 사용
-API 명세를 문서화한 링크
+- node 서버로 실행 시
+  backend: `npm start`
+  frontend: `npm run dev`
 
+### 테스트 계정
 
-4. 프로젝트 팀원 역할 분담
+#### 접속 주소
 
+[https://veganro-frontend.vercel.app/](https://veganro-frontend.vercel.app/)
 
+#### 회원 테스트 계정
 
-이름
-담당 업무
+|               | 이메일              | 비밀번호  |
+| ------------- | ------------------- | --------- |
+| 테스트 유저 1 | veganro01@gmail.com | veganro01 |
+| 테스트 유저 2 | veganro02@gmail.com | veganro02 |
+| 테스트 유저 3 | veganro03@gmail.com | veganro03 |
 
+## 📍 기술 스택
 
+![기술스택](https://drive.google.com/uc?export=view&id=1rppacJphpctmobCK3N0BimZ02Ww6MMIM)
 
+## 📍 기획
 
-멤버1
-팀장/프론트엔드 개발
+### 1. 화면 구성안
 
+![화면 구성](https://drive.google.com/uc?export=view&id=1dWYjkVDlT4O_gAI3wkjREL4WzRd1D4Vr)
 
-멤버2
-백엔드 개발
+### 2. 데이터 베이스 스키마
 
+![데이터 베이스 스키마](https://drive.google.com/uc?export=view&id=1VumQCQXcN6Bl8WnF1ZlMDlhbEeWaspep)
 
+### 3. [API 명세서](https://documenter.getpostman.com/view/33305953/2sA3BoYqVa)
 
-멤버별 responsibility
+<br/>
 
-멤버 1: 팀장/프론트엔드 담당
+## 📍 참여자
 
+| 이름   | 담당 업무 |
+| ------ | --------- |
+| 박지원 | BE(팀장)     |
+| 이진주 | BE          |
+| 김윤진 | FE          |
+| 박찬주 | FE          |
+| 최세영 | FE + Design |
+| 최정민 | FE          |
 
-기획 단계: 구체적인 설계와 지표에 따른 프로젝트 제안서 작성
-개발 단계: 팀원간의 일정 등 조율 + 프론트 or 백엔드 개발
-수정 단계: 기획, 스크럼 진행, 코치님 피드백 반영해서 수정, 발표 준비
-
-
-멤버 2: 백엔드 담당
-
-
-기획 단계: 큰 주제에서 문제 해결 아이디어 도출, 와이어프레임 작성
-개발 단계: 와이어프레임을 기반으로 API 완성
-수정 단계: 피드백 반영해서 백엔드 설계 수정
-
-
-5. 실행 방법
-
-백엔드 (예시):
-1. mongodb 실행
-2. yarn start (혹은 npm start)
-
-
-
-6. 버전
-
-프로젝트의 버전 기입 (예: 1.0.0)
-
-
-7. FAQ
-
-자주 받는 질문 정리
-예시) 이 서비스는 어떻게 실행하면 되나요?
-
-git clone을 하신 후 아래 커맨드를 입력하시면 됩니다. ~~~
+<br />
